@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Form</title>
+</head>
+<body leftmargin="500px">
+    <form>
+        <table>
+            <tr>
+                <td rowspan="10">
+                    <img src="doc.png" width="500" height="800">
+                </td>
+                <td colspan="3"><p><font size="5" align="center"><b>Doctor Appointment Form<b></font></p></td></tr>
+                <tr><td colspan="2"><hr color="Red"></td></tr>
+                <tr><td>Appointment Date</td>
+                <td><input type="date"></td></tr>
+                <tr>
+                    <td>Appointment Time</td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" placeholder="First">
+                        <input type="text" placeholder="Last">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male<input type="radio" Name="Gender" id="male" value="male">
+                    Female<input type="radio" Name="Gender" id="female" value="female"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="number" placeholder="########"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <input type="text" placeholder="City">
+                        <input type="text" placeholder="State">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your Query</td>
+                    <td><textarea name="Your Query" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Appointment Type</td>
+                    <td>Select which appointment type(s) you require <br>
+                        <input type="checkbox"> Cervix checkup <br>
+                        <input type="checkbox"> Heart checkup <br>
+                        <input type="checkbox"> Eye check-up <br>
+                        <input type="checkbox"> Hearing Test
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><button>Send</button></td>
+                </tr>
+        </table>
+    </form>
+</body>
+</body>
+</html>
